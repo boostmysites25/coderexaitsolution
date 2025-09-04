@@ -36,7 +36,7 @@ const ContactUs = () => {
             className="bg-primary/5 flex flex-col gap-3 text-primary items-center justify-center rounded-xl p-5"
           >
             <Mail strokeWidth={2} size={40} className="inline" />
-            <span className="text-center font-medium">
+            <span className="text-center text-sm font-medium break-words leading-tight">
               {companyDetails.email}
             </span>
           </Link>

@@ -49,13 +49,15 @@ const WebsiteFooter = () => {
             >
               <Twitter strokeWidth={1.5} size={20} />
             </Link>
-            <Link
+            <a
               aria-label="Contact us on LinkedIn"
-              to={companyDetails.linkedin}
+              href={companyDetails.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-[2rem] h-[2rem] rounded-full p-2 bg-secondary hover:bg-primary text-primary_text hover:text-white hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"
             >
               <Linkedin strokeWidth={1.5} size={20} />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row gap-7 sm:gap-14">

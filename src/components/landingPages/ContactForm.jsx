@@ -105,7 +105,7 @@ const ContactForm = () => {
             className="bg-white/80 backdrop-blur-sm flex flex-col gap-2 text-primary items-center justify-center rounded-lg p-4 shadow-lg hover:bg-white/90 transition-colors"
           >
             <Mail strokeWidth={2} size={30} className="inline" />
-            <span className="text-center text-sm font-medium">
+            <span className="text-center text-xs font-medium break-words leading-tight">
               {companyDetails.email}
             </span>
           </a>

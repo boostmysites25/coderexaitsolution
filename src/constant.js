@@ -17,9 +17,9 @@ export { logoImg };
 export const companyDetails = {
   phone: "+919149386916",
   address: "Pacific Golf Estate Dehradun",
-  email: "abc@xyz.com",
+  email: "sales@coderexasolution.com",
   whatsapp: "+919149386916",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/company/coderexa-it-solution-pvt-ltd/",
   instagram: "",
   twitter: "",
 };
