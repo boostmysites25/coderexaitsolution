@@ -2,11 +2,9 @@ import React from "react";
 import { companyDetails, logoImg, routes } from "../../constant";
 import {
   ChevronRight,
-  Instagram,
   Linkedin,
   Mail,
   Phone,
-  Twitter,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
@@ -35,20 +33,6 @@ const WebsiteFooter = () => {
             software products and services to meet your unique needs.
           </p>
           <div className="flex items-center gap-3 mt-5">
-            <Link
-              aria-label="Contact us on Instagram"
-              to={companyDetails.instagram}
-              className="w-[2rem] h-[2rem] rounded-full p-2 bg-secondary hover:bg-primary text-primary_text hover:text-white hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"
-            >
-              <Instagram strokeWidth={1.5} size={20} />
-            </Link>
-            <Link
-              aria-label="Contact us on Twitter"
-              to={companyDetails.twitter}
-              className="w-[2rem] h-[2rem] rounded-full p-2 bg-secondary hover:bg-primary text-primary_text hover:text-white hover:-translate-y-1 transition-all duration-300 flex justify-center items-center"
-            >
-              <Twitter strokeWidth={1.5} size={20} />
-            </Link>
             <a
               aria-label="Contact us on LinkedIn"
               href={companyDetails.linkedin}
